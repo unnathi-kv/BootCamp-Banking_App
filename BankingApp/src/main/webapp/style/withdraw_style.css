@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body
+{ font-family: 'poppins', sans-serif;
+  font-size: .84em;
+  color: #222;
+  line-height: 1.4em;
+  background: #111;
+  width: 900px;
+  margin: 10px auto 0px auto;}
+  
+  #basic-accordian
+{ padding: 0px;
+  background: #FFF;}
+
+.accordion_headings
+{ padding: 10px 25px 10px 25px;
+  background: #444;
+  color: #FFF;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+  font-size: 120%;
+  position: relative;
+  z-index: 20;}
+
+.accordion_headings:hover
+{ background: #06D4EC;
+  border-bottom: 1px solid #06D4EC;}
+  
+
+
+.accordion_child
+{ padding: 25px;
+  background: #FFF;
+  text-align: center;  
+  }
+  
+  .header_highlight
+{ background: #06D4EC;
+  border-bottom: 1px solid #06D4EC;}
+  
+  
+  #logo
+{ width: 100%;
+  height: 78px;
+  background: transparent;
+  color: #444;
+  position: relative;
+  z-index: 10;
+  padding-top: 15px;}
+  
+
+.form-body {
+  padding:10px 40px;
+ color: #333333;
+}
+
+.form-group{
+  margin-bottom:20px;
+}
+
+.form-body .label-title {
+  color: #333333;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+
+
+.horizontal-group .left{
+  float:left;
+  width:49%;
+}
+
+.horizontal-group .right{
+  float:right;
+  width:49%;
+}
+
+input[type="file"] {
+  outline: none;
+  cursor:pointer;
+  font-size: 17px;
+}
+
+#range-label {
+  width:15%;
+  padding:5px;
+  background-color: #1BBA93;
+  color:white;
+  border-radius: 5px;
+  font-size: 17px;
+  position: relative;
+  top:-8px;
+}
+
+
+::-webkit-input-placeholder  {
+  color:#d9d9d9;
+}
+.button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.button:hover{
+  background: #06D4EC;
+ }
+

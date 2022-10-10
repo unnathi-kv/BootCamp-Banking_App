@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body
+{ font-family: 'poppins', sans-serif;
+  font-size: .84em;
+  color: #222;
+  line-height: 1.4em;
+  background: #111;
+  width: 900px;
+  margin: 10px auto 0px auto;}
+ 
+.logo-img{
+	float: left;
+    position: left;
+    margin: 10px 15px 15px 10px;	
+} 
+#basic-accordian
+{ padding: 0px;
+  background: #FFF;}
+
+.accordion_headings
+{ padding: 10px 25px 10px 25px;
+  background: #444;
+  color: #FFF;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+  font-size: 120%;
+  position: relative;
+  z-index: 20;}
+
+.accordion_headings:hover
+{ background: #06D4EC;
+  border-bottom: 1px solid #06D4EC;}
+  
+
+
+.accordion_child
+{ padding: 25px;
+  background: #FFF;
+  text-align: center;  
+  }
+
+.header_highlight
+{ background: #06D4EC;
+  border-bottom: 1px solid #06D4EC;}
+  
+#logo
+{ width: 100%;
+  height: 78px;
+  background: transparent;
+  color: #444;
+  position: relative;
+  z-index: 10;
+  padding-top: 15px;}
+  
+.button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.button:hover{
+  background: #06D4EC;
+ }
+ 
+
+ 
+ 

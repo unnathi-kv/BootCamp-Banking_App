@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body
+{ font-family: 'poppins', sans-serif;
+  font-size: .84em;
+  color: #222;
+  line-height: 1.4em;
+  background: #111;
+  width: 900px;
+  margin: 10px auto 0px auto;}
+#basic-accordian
+{ padding: 0px;
+  background: #FFF;}
+
+.accordion_headings
+{ padding: 10px 25px 10px 25px;
+  background: #444;
+  color: #FFF;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+  font-size: 120%;
+  position: relative;
+  z-index: 20;}
+
+.accordion_headings:hover
+{ background: #06D4EC;
+  border-bottom: 1px solid #06D4EC;}
+  
+
+
+.accordion_child
+{ padding: 25px;
+  background: #FFF;
+  text-align: center;  
+  }
+
+.header_highlight
+{ background: #06D4EC;
+  border-bottom: 1px solid #06D4EC;}
+    
+#logo
+{ width: 100%;
+  height: 78px;
+  background: transparent;
+  color: #444;
+  position: relative;
+  z-index: 10;
+  padding-top: 15px;}
+  
+  .title {
+    font-family: 'poppins', sans-serif;
+    padding-top: 15px;
+    position: absolute;
+    left: 45%;
+}
+
+.profile {
+    margin-bottom: 20px;
+    margin-top: -12px;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+.name {
+    font-size: 20px;
+   
+    padding-top: 20px;
+}
+
+.main {
+    margin-top: 2%;
+    margin-left: 20%; 
+    font-size: 16px;
+    padding: 0 10px; 
+    width: 58%;
+}
+
+.main h2 {
+    color: #222;
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main .card {
+    background-color: #06D4EC;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+}
+.form-control, .dataTable-input {
+   
+    width: 85%;
+    padding:0 10px ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #111;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c5ccd6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.35rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fa {
+  
+  width: 25px;
+  color: black; 
+  float:left;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.save_button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.save_button:hover{
+  background: #06D4EC;
+ }
+
+.button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.button:hover{
+  background: #06D4EC;
+ }
+ 
+
+ 
