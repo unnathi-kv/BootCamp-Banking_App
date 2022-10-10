@@ -1,4 +1,4 @@
-# BootCamp-Banking_App
+# BootCamp-Banking-App
 
 ## Banking Application :-
 A banking application with the following features :-
